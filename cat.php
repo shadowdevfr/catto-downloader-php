@@ -95,8 +95,6 @@ for ($b=0; $b < $_GET["amount"]; $b++) {
         $foldersize = folderSize("cats");
         $output = [];
         $output[] = "";
-        $output[] = "Im eating so i'm leaving this run ok bye";
-        $output[] = "";
         $output[] = 'Downloaded cattos: ';
         $output[] = progressBar($i, $_GET["amount"]);
         $output[] = "Downloaded: " . $i . "/" . $_GET["amount"];
@@ -120,5 +118,5 @@ echo "██╔████╔██║██║███████║██�
 echo "██║╚██╔╝██║██║██╔══██║██║   ██║██║   ██║" . PHP_EOL;
 echo "██║ ╚═╝ ██║██║██║  ██║╚██████╔╝╚██████╔╝" . PHP_EOL;
 echo "╚═╝     ╚═╝╚═╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ " . PHP_EOL;
-echo "Fini.";
+echo "Fini. - Done.";
 ?>
